@@ -4,11 +4,12 @@ Spring Boot based RESTful server prototype
 You can test with "rest_api_test.py" file.
 
 This "prototype" project made with
-- Java 8
-- Spring Boot
-- Spring Data JPA
-- Lombok
-- MySQL, Redis
+
+> - Java 8
+> - Spring Boot
+> - Spring Data JPA
+> - Lombok
+> - MySQL, Redis
 
 # Consist of...
 ## User Class
@@ -20,4 +21,4 @@ This "prototype" project made with
 
 # Runtime
 Possible to run on docker(Docker Compose) or without.
-But you might need some ddl and db grant stuffs.
+But you might need some ddl and db grant stuffs. Best wishes :+1:
