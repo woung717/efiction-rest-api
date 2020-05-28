@@ -19,7 +19,7 @@ This "prototype" project made with
 
 # Runtime
 Possible to run on docker(Docker Compose) or without after build.
-But you might need some ddl and db grant stuffs and docker configs. Best wishes :+1::coffee:
+But you might need some ddl, db grant stuffs and docker configs. Best wishes :+1::coffee:
 
 # Testing
 You can test with "rest_api_test.py" file.
