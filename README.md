@@ -1,5 +1,5 @@
 # efiction-rest-api
-Spring Boot based RESTful server prototype
+Spring Boot based RESTful server prototype :heart::heart::heart:
 
 This "prototype" project made with
 
