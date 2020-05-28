@@ -1,0 +1,39 @@
+version: "3.1"
+services:
+    mysql_db:
+        image: mysql:latest
+        container_name: mysql_db
+        network_mode: "host"
+        environment: 
+            - MYSQL_DATABASE=db_efiction
+            - MYSQL_ROOT_PASSWORD=efiction_pw
+            - MYSQL_ROOT_HOST='%'
+        ports:
+            - 3306:3306
+            
+    redis_session_db:
+        image: redis:buster
+        container_name: redis_session_db
+        network_mode: "host"
+        labels:
+            - "mode=standalone"
+        ports:
+            - 6379:6379
+            
+    main_application:
+        container_name: main_application
+        network_mode: "host"
+        build: .
+        restart: always
+        environment:
+            - SPRING_DATASOURCE_URL=jdbc:mysql://localhost:3306/db_efiction?serverTimezone=Asia/Seoul
+            - SPRING_DATASOURCE_USERNAME=root
+            - SPRING_DATASOURCE_PASSWORD=efiction_pw
+            - SPRING_REDIS_HOST=redis_session_db
+            - SPRING_REDIS_PORT=6379
+        ports:
+            - 8080:8080
+        depends_on:
+            - mysql_db
+            - redis_session_db
+            
