@@ -20,3 +20,4 @@ This "prototype" project made with
 
 # Runtime
 Possible to run on docker(Docker Compose) or without.
+But you might need some ddl and db grant stuffs.
