@@ -21,6 +21,7 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+<<<<<<< HEAD
 
 .DS_Store
 
@@ -31,3 +32,5 @@ hs_err_pid*
 .project
 .settings
 .springBeans
+=======
+>>>>>>> adb61cb293b77afc99cc3efc5db19d6b32ee663a
