@@ -2,7 +2,7 @@ from requests import get, post, delete
 import json
 import datetime
 
-url = 'http://139.180.197.161:8080'
+url = 'http://api-server-addr:8080'
 headers = { 'Content-Type': 'application/json; charset=UTF-8', \
 			'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', \
 			'Accept': '*/*', \
