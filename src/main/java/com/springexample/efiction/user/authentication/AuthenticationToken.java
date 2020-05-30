@@ -1,4 +1,4 @@
-package com.springshiit.efiction.user.authentication;
+package com.springexample.efiction.user.authentication;
 
 import java.util.Collection;
 

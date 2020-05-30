@@ -1,4 +1,4 @@
-package com.springshiit.efiction;
+package com.springexample.efiction;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.springshiit.efiction.user;
+package com.springexample.efiction.user;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

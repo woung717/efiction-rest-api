@@ -1,4 +1,4 @@
-package com.springshiit.efiction.config;
+package com.springexample.efiction.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

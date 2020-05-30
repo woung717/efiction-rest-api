@@ -1,4 +1,4 @@
-package com.springshiit.efiction.user;
+package com.springexample.efiction.user;
 
 import java.util.Collection;
 import java.util.Date;

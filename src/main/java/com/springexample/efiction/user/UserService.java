@@ -1,4 +1,4 @@
-package com.springshiit.efiction.user;
+package com.springexample.efiction.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetailsService;

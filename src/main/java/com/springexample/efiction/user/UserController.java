@@ -1,4 +1,4 @@
-package com.springshiit.efiction.user;
+package com.springexample.efiction.user;
 
 import java.util.Date;
 import java.util.Enumeration;
@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.springshiit.efiction.user.authentication.AuthenticationRequest;
-import com.springshiit.efiction.user.authentication.AuthenticationToken;
+import com.springexample.efiction.user.authentication.AuthenticationRequest;
+import com.springexample.efiction.user.authentication.AuthenticationToken;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.springshiit.efiction.post;
+package com.springexample.efiction.post;
 
 import java.util.Date;
 

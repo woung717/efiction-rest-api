@@ -1,4 +1,4 @@
-package com.springshiit.efiction.post;
+package com.springexample.efiction.post;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

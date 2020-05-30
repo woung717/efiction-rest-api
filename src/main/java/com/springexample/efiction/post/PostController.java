@@ -1,4 +1,4 @@
-package com.springshiit.efiction.post;
+package com.springexample.efiction.post;
 
 import java.util.Date;
 import java.util.List;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.springshiit.efiction.user.UserVO;
+import com.springexample.efiction.user.UserVO;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
